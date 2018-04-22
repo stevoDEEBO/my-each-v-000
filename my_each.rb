@@ -7,7 +7,7 @@ def my_each(collection) # put argument(s) here
       yield(collection[i])
       i = i + 1
     end
-    array
+    collection
 
   else
     "Hey! No block was given!"
