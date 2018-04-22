@@ -1,6 +1,6 @@
 def my_each(collection) # put argument(s) here
   # code here
-  if block_given?
+  #if block_given?
     i = 0
 
     while i < collection.length
@@ -9,9 +9,9 @@ def my_each(collection) # put argument(s) here
     end
     collection
 
-  else
-    "Hey! No block was given!"
-  end
+  #else
+  #  "Hey! No block was given!"
+  #end
 end
 
 #collection = [1, 2, 3, 4]
